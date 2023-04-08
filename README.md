@@ -1,7 +1,6 @@
 # NBA Stats Centre and Knowledge Base
 Project 3 for Monash Data Analytics and Visualisation Bootcamp
-Gavin Payne, Bilal 'Bel' Abdul Hak, Anjana Sanjeev, Raymond Jong.
----
+
 ## Project Requirements
 To build a website on Flask which:
 1. directs users to several API endoints containing data stored in some kind of database
@@ -9,7 +8,7 @@ To build a website on Flask which:
 3. includes a web-styled landing page.
 
 ### Interactive NBA Portal
-The concept was for a beginner-friendly resource for users who were broadly interested in NBA but who wanted to familiarise themselves with it in more detail.  The use-case was for three separate web routes to information on current players, teams and historic matches.
+The concept was for a beginner-friendly resource for users who were broadly interested in NBA but who wanted to familiarise themselves with the game in more detail.  The use-case was for three separate, interactive web-routes to information on current players, mapped teams profiles and historic matches.
 
 ![NBA homepage](screenshots/homepage.png)
 
@@ -28,7 +27,7 @@ All routes (API and user) are served locally using flask.
 ![Teams map 2](screenshots/zoommap.png)
 
 ### Languages and Applications
-This project focused on creating an interactive visualization portal using a combination of:
+This project focused on creating an interactive visualisation portal using a combination of:
 
 - Python,
 - SQLite, 
@@ -36,7 +35,7 @@ This project focused on creating an interactive visualization portal using a com
 - CSS, and
 - Javascript
 
-Using Flask and other libraries in Python and Javascript, this project consolidates databases to produce visualizations about NBA player, team, and game data.
+Using Flask and other libraries in Python and Javascript, this project consolidates databases to produce visualisations about NBA player, team, and game data.
 
 ---
 ## File and code Usage
