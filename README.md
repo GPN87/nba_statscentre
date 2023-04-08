@@ -1,5 +1,5 @@
 # NBA Stats Centre and Knowledge Base
-## Project 3 for Monash Data Analytics and Visualisation Bootcamp
+Project 3 for Monash Data Analytics and Visualisation Bootcamp
 Gavin Payne, Bilal 'Bel' Abdul Hak, Anjana Sanjeev, Raymond Jong.
 ---
 ## Project Requirements
@@ -76,7 +76,7 @@ Using Flask and other libraries in Python and Javascript, this project consolida
 ---
 ## Datasets
 
-Information on the datasets used can be found in [`data/README.md`](https://github.com/BA-BEL/DABC-Project-3/tree/main/data).
+Information on the datasets used can be found in [`data/README.md`](https://github.com/GPN87/nba_statscentre/tree/main/data).
 
 
 
