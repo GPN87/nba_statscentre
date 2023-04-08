@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Stats Portal</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='plugins/bootstrap/bootstrap.min.css') }}">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" media="screen" />
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/nbavicon.png') }}" type="image/x-icon">
+	<link rel="icon" href="{{ url_for('static', filename='images/nbavicon.png') }}" type="image/x-icon">
+</head>
+<body>
+	<!-- header -->
+	<header class="banner overlay bg-cover" data-background="{{ url_for('static', filename='images/nba.jpeg') }}">
+		
+		<!-- banner -->
+		<div class="container section">
+			<div class="row">
+				<div class="col-lg-8 text-center mx-auto">
+					<h1 class="text-white mb-3">NBA stats centre &amp; knowledge base!</h1>
+					<p class="text-white mb-4">Find out who's currently on your team's roster here. Or click below to access our full NBA compendium </p>
+					<form method="POST" action="/search">
+					<div class="position-relative">
+						<input type="text" name="team_name" id="team_name" class="form-control" placeholder="Enter your favourite team here (e.g. 'Boston Celtics')" autocomplete="off"><i
+							class="ti-search search-icon"></i>
+					</div>
+					<button type="submit" class="btn btn-primary mt-3">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</header>
+    <section id="section1">
+        <h2>Search our database</h2>
+       <p> Search our players database for statistics on all 2022-23 season players. Search our games database for stats on all association-era matches. Find out your team's next homegame using our teams map! </p>
+		<button type="button" class="btn btn-danger btn-lg btn-block" onclick="window.location.href='/players'">Let me search players</button>
+		<button type="button" class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='/games'">Let me search games</button>
+		<button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/teamsmap'">Let me search teams</button>
+    </section>
+
+	<!-- ** JS Plugins Needed for the Project ** -->
+	<!-- jquiry -->
+	<script type="text/javascript" src="{{ url_for('static', filename='plugins/jquery/jquery-1.12.4.js') }}"></script>
+	<!-- Bootstrap JS -->
+	<script type="text/javascript" src="{{ url_for('static', filename='plugins/bootstrap/bootstrap.min.js') }}"></script>
+
+
+
+    <!-- Our JS -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/index.js') }}"></script>
+
+
+</body>
+</html>
