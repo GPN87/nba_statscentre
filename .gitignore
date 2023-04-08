@@ -1,3 +1,4 @@
 data/**/*.csv
 "data/teams python/config.py"
 .DS_Store
+**/*.ipynb_checkpoints/
