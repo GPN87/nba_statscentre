@@ -9,7 +9,7 @@ To build a website on Flask which:
 3. includes a web-styled landing page.
 
 ### Interactive NBA Portal
-Our use case was for a beginner-friendly resources for users who were broadly interested in NBA but who wanted more detailed information in players, teams and matches.
+The concept was for a beginner-friendly resource for users who were broadly interested in NBA but who wanted to familiarise themselves with it in more detail.  The use-case was for three separate web routes to information on current players, teams and historic matches.
 
 ![NBA homepage](screenshots/homepage.png)
 
