@@ -1,4 +1,2 @@
-data/Anjana_DB/*.csv
-data/Bel-db/csv/*.csv
-"data/teams python/*.csv"
+data/**/*.csv
 "data/teams python/config.py"
